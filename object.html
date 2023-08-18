@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //object could br anything which have structure, behaviour
+        let obj1 = [
+        {
+            id : 1,
+            name : "YASH",
+            age : 21,
+
+        },
+        {
+            id : 2,
+            name : "tony",
+            age : 52,
+
+        },
+        {
+            id : 3,
+            name : "Ysx",
+            age : 14,
+
+        },
+        {
+            id : 4,
+            name : "stark",
+            age : 19,
+
+        },
+        {
+            id : 5,
+            name : "pratibha",
+            age : 14,
+
+        },
+        {
+            id : 6,
+            name : "nani",
+            age : 21,
+
+        },
+    ]
+       /* for (let i of obj1){
+            if (i.age>18){
+
+                console.log(i.id,i.name,i.age)    
+            }
+            
+        }*/
+        /*let a = [10,20,30,40,50,500,70]
+
+        let c = a.filter((item)=>{
+
+            return item>50
+        })
+        console.log(c)*/
+        
+            let a = obj1.filter((item)=>item.age>18)
+               
+                console.log(a) 
+
+
+            const myobj = {
+                name : "Yash",
+                age : 21,
+                cars : [
+                
+                {
+                    name:"ford",models:["fista","fista","fista"],
+                    name:"bmw",models:["y2","x3","fista"],
+                    name:"ford",models:["fista","fista","fista"]
+                }
+                
+                
+                ]
+            }       
+
+
+    </script>
+</body>
+</html>
